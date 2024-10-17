@@ -1,0 +1,10 @@
+{
+  "name": "timesheet-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/timesheet-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["timesheet"],
+  "// targets": "to see all targets run: nx show project timesheet-e2e --web",
+  "targets": {}
+}
