@@ -1,0 +1,21 @@
+{
+  "name": "timesheet",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "shared-dependencies": "https://git-codecommit.ap-south-1.amazonaws.com/v1/repos/OfistraMobile#OfistraMonoRepo",
+    "@testing-library/jest-native": "*",
+    "@testing-library/react-native": "*",
+    "metro-config": "*",
+    "react-native": "*",
+    "expo": "*",
+    "react-native-svg": "*",
+    "react-native-web": "*"
+  },
+  "scripts": {
+    "eas-build-post-install": "cd ../../ && node tools/scripts/eas-build-post-install.mjs . apps/timesheet",
+    "expo-start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
+  }
+}
